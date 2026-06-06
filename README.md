@@ -1,42 +1,9 @@
 # AI Core Implementation Model
 
-Aetheris framework repository.
+The **AI Core Implementation Model** is the root architecture for the Aetheris governed AI stack.
 
-## Core Architecture
+It defines how data, people, AI agents, workflows, policy, simulation, telemetry, evidence, memory, and commit authority fit into one operational model.
 
-- DOC (Data Operations Center)
-- AHA (Agent Harness Architecture)
-- WEOF (Workflow Evaluation and Optimization Framework)
-- THOS (Telemetry Handshake Ontology Shell)
-- WFKB (Workflow Knowledge Base)
-- WFKC (Workflow Knowledge Commons)
-- AHA-SIM
-- Gate 8
-- UMSS
+## Core Thesis
 
-## Canonical Layering
-
-Knowledge Plane
-- WFKB
-- WFKC
-
-Control Plane
-- DOC
-
-Exchange Plane
-- THOS
-
-Agency Plane
-- AHA
-
-Workflow Plane
-- WEOF
-
-Simulation Plane
-- AHA-SIM
-
-Commitment Plane
-- Gate 8
-
-Memory Plane
-- UMSS
+AI should not be deployed as isolated assistants or opaque automation. AI should be implemented as governed operational actors inside bounded organizations, workflows
