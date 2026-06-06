@@ -1,0 +1,10 @@
+thos_packet:
+  packet_id: string
+  packet_type: workflow|evidence|proposal|simulation
+  source: string
+  destination: string
+  authority_envelope: object
+  workflow_designator: object
+  evidence_refs: []
+  state_hash: string
+  timestamp: datetime
