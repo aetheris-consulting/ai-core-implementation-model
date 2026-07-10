@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or build on ACIM-E, please cite this repository and the applicable release."
+title: "Organizational / Enterprise AI Core Implementation Model (ACIM-E)"
+type: software
+authors:
+  - family-names: "Giza"
+    given-names: "Thomas"
+    affiliation: "Aetheris Consulting"
+version: "1.0.0"
+date-released: "2026-07-10"
+license: "MIT"
+repository-code: "https://github.com/aetheris-consulting/ai-core-implementation-model"
+url: "https://github.com/aetheris-consulting/ai-core-implementation-model/tree/main/docs/acim-e-v1.0"
+keywords:
+  - enterprise AI
+  - AI governance
+  - workflow architecture
+  - agentic systems
+  - organizational implementation
+  - AI evaluation
+  - digital twins
+  - human oversight
+abstract: >-
+  ACIM-E is a governed enterprise operating model for orienting, designing,
+  simulating, piloting, validating, deploying, and continuously improving
+  AI-enabled organizational workflows within bounded authority and protected
+  human outcomes.
