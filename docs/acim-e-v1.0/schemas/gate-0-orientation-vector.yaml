@@ -1,0 +1,61 @@
+schema_name: gate_0_orientation_vector
+schema_version: 1.0.0
+status: canonical_working
+
+gate_0_orientation_vector:
+  request_id: ""
+  actor_locus:
+    actor_id: ""
+    actor_type: "human | ai_agent | service | team | organization | external_system"
+    identity: ""
+    role: ""
+    current_gate: "gate_0"
+    capability_boundary: []
+    authority_boundary: []
+    commit_boundary: []
+    escalation_path: []
+
+  organization_context:
+    organization_name: ""
+    organization_type: ""
+    operating_regions: []
+    business_model_clusters: []
+    business_function: ""
+
+  sector_industry_context:
+    classification_system: "NAICS | ISIC | region_specific | multi_region | unknown"
+    sector: ""
+    subsector_or_division: ""
+    industry_group: ""
+    industry_detail: ""
+    classification_confidence: "low | medium | high"
+
+  jurisdiction_compliance_context:
+    countries_or_regions: []
+    state_or_local: []
+    regulated_status: "none | standard | regulated | high_liability | special_case | unknown"
+    applicable_requirements: []
+    compliance_review_owner: ""
+
+  implementation_track: "ai_core_optimization | production_manufacturing | scientific_discovery | medical | education_human_capability | multi_track | unknown"
+  workflow_scope: ""
+  served_entities: []
+  voc_profile: {}
+  objective: ""
+  primary_metrics: []
+  protected_countermetrics: []
+  data_classes: []
+  protected_constraints: []
+  allowed_optimization_targets: []
+  forbidden_targets: []
+  forbidden_actions: []
+  reversibility_requirement: "required | conditional | not_applicable | unresolved"
+  expansion_mode: "tunnel | exploratory | hybrid"
+  external_interface_status: "sealed | conditionally_open"
+  provenance_policy: {}
+  human_review_owner: ""
+  rollback_owner: ""
+  orientation_expiry: ""
+  orientation_status: "oriented | incomplete | blocked"
+  stop_reasons: []
+  next_gate: "gate_1_target_workflow_orientation"
