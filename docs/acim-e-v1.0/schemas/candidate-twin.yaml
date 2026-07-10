@@ -1,0 +1,50 @@
+schema_name: candidate_twin
+schema_version: 1.0.0
+status: canonical_working
+
+candidate_twin:
+  candidate_id: ""
+  candidate_name: ""
+  baseline_workflow_id: ""
+  proposed_changes: []
+  invariants: []
+  assumptions: []
+  dependencies: []
+  model_agent_roles: []
+  human_roles: []
+  authority_changes: []
+  control_points: []
+  expected_benefits: []
+  risks: []
+  failure_paths: []
+  reversibility_plan:
+    rollback_owner: ""
+    rollback_triggers: []
+    restoration_steps: []
+    maximum_correction_window: ""
+    evidence_retention: []
+  forecast:
+    baseline_comparison: {}
+    best_case: {}
+    expected_case: {}
+    adverse_case: {}
+    confidence_bounds: {}
+    sensitivity: []
+    second_order_effects: []
+    residual_risk: []
+  benchmark_suite: []
+  utss_scenarios: []
+  voc_plan: {}
+  pilot_boundary:
+    population: []
+    scope: ""
+    time_window: ""
+    allowed_actions: []
+    blocked_actions: []
+    human_review: {}
+    telemetry_plan: {}
+    success_criteria: []
+    pause_criteria: []
+    rollback_criteria: []
+  validation_status: "hypothesis | simulation_ready | pilot_authorized | evaluated | rejected | committed"
+  provenance_receipts: []
