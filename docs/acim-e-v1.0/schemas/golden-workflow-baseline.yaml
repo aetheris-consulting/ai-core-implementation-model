@@ -1,0 +1,42 @@
+schema_name: golden_workflow_knowledge_baseline
+schema_version: 1.0.0
+status: canonical_working
+
+golden_workflow_baseline:
+  workflow_id: ""
+  workflow_name: ""
+  owner: ""
+  version: ""
+  approval_status: "draft | review | approved | retired"
+  trigger: ""
+  intended_outcome: ""
+  served_entities: []
+  actors: []
+  authority_map: {}
+  inputs: []
+  data_sources: []
+  steps: []
+  decisions: []
+  tools: []
+  handoffs: []
+  normal_path: []
+  exception_paths: []
+  timing_and_queues: {}
+  costs_and_resources: {}
+  failure_modes: []
+  hidden_compensators: []
+  controls: []
+  primary_metrics: []
+  protected_countermetrics: []
+  served_entity_outcomes: []
+  baseline_period: ""
+  comparison_method: ""
+  confidence: "low | medium | high"
+  known_gaps: []
+  data_quality_status: {}
+  provenance_receipts: []
+  approval_record:
+    approved_by: []
+    approved_at: ""
+    conditions: []
+    expiry_or_review_date: ""
