@@ -1,0 +1,43 @@
+schema_name: benchmark_voc_cycle
+schema_version: 1.0.0
+status: canonical_working
+
+benchmark_voc_cycle:
+  deployment_id: ""
+  workflow_id: ""
+  benchmark_suite: []
+  stakeholder_population: []
+  collection_timeframe:
+    start: ""
+    end: ""
+  benchmark_scores: {}
+  outcome_experience: {}
+  protected_countermetrics: {}
+  incidents_and_exceptions: []
+  identified_gaps: []
+  gap_classes:
+    - "calibration_gap"
+    - "coverage_gap"
+    - "case_library_gap"
+    - "authority_boundary_gap"
+    - "human_baseline_gap"
+    - "unknown_gap"
+  calibration_signal: {}
+  new_case_candidates: []
+  outcome_validation_score:
+    value: null
+    confidence_interval: null
+    cycle_count: 0
+    interpretation: ""
+    limitations: []
+  privacy_controls:
+    purpose_limitation: ""
+    lawful_basis_or_consent: ""
+    access_controls: []
+    retention_rule: ""
+    retaliation_protection: []
+    surveillance_separation: []
+  authority_action: "continue | recalibrate | narrow | suspend"
+  decision_owner: ""
+  review_date: ""
+  provenance_receipts: []
