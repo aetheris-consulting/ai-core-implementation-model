@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">ACIM-E v1.0 Organizational Enterprise AI Core Implementation Model</title>
+  <desc id="desc">Overview of the governed enterprise AI implementation lifecycle, Gate 0 orientation compiler, benchmark ecosystem, WEOF gates, and foundation controls.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#092653"/>
+      <stop offset="1" stop-color="#123f75"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title{font:700 34px Arial,sans-serif;fill:#fff;letter-spacing:.5px}
+      .subtitle{font:italic 18px Arial,sans-serif;fill:#dce9fb}
+      .section{font:700 20px Arial,sans-serif;fill:#0b2f61}
+      .boxTitle{font:700 16px Arial,sans-serif;fill:#0b2f61}
+      .small{font:14px Arial,sans-serif;fill:#24364b}
+      .tiny{font:12px Arial,sans-serif;fill:#34495e}
+      .white{fill:#fff}
+      .line{stroke:#26578f;stroke-width:2;fill:none}
+      .arrow{stroke:#26578f;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .panel{fill:#f7faff;stroke:#b9cce6;stroke-width:1.5;rx:14}
+      .blue{fill:#e9f2ff;stroke:#6b9bd1;stroke-width:1.5;rx:12}
+      .green{fill:#edf8f1;stroke:#6da783;stroke-width:1.5;rx:12}
+      .gold{fill:#fff8e7;stroke:#c69a3c;stroke-width:1.5;rx:12}
+      .purple{fill:#f2ecfb;stroke:#8b6bb6;stroke-width:1.5;rx:12}
+      .teal{fill:#eaf8f8;stroke:#579a9c;stroke-width:1.5;rx:12}
+      .orange{fill:#fff0e5;stroke:#c17a3a;stroke-width:1.5;rx:12}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#26578f"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#eef3fa"/>
+  <rect x="0" y="0" width="1600" height="90" fill="url(#header)"/>
+  <text x="800" y="42" text-anchor="middle" class="title">ACIM-E v1.0 • ORGANIZATIONAL / ENTERPRISE AI CORE IMPLEMENTATION MODEL</text>
+  <text x="800" y="70" text-anchor="middle" class="subtitle">Governed orientation • evidence-grounded execution • continuous reality calibration</text>
+
+  <!-- Lifecycle -->
+  <rect x="25" y="110" width="1550" height="180" class="panel" filter="url(#shadow)"/>
+  <text x="50" y="143" class="section">1. IMPLEMENTATION LIFECYCLE</text>
+
+  <g>
+    <rect x="55" y="165" width="180" height="95" class="blue"/>
+    <text x="145" y="192" text-anchor="middle" class="boxTitle">Hailing Call</text>
+    <text x="145" y="216" text-anchor="middle" class="small"><tspan x="145">Enterprise demand, sponsor,</tspan><tspan x="145" dy="18">affected populations and risk</tspan></text>
+
+    <path d="M240 212 H275" class="arrow"/>
+    <rect x="285" y="165" width="190" height="95" class="green"/>
+    <text x="380" y="192" text-anchor="middle" class="boxTitle">Gate 0 Orientation</text>
+    <text x="380" y="216" text-anchor="middle" class="small"><tspan x="380">Loci, industry, jurisdiction,</tspan><tspan x="380" dy="18">authority and reasoning mode</tspan></text>
+
+    <path d="M480 212 H515" class="arrow"/>
+    <rect x="525" y="165" width="210" height="95" class="gold"/>
+    <text x="630" y="192" text-anchor="middle" class="boxTitle">OKC + Golden WFKB</text>
+    <text x="630" y="216" text-anchor="middle" class="small"><tspan x="630">Organization Knowledge Core</tspan><tspan x="630" dy="18">and approved as-is workflow</tspan></text>
+
+    <path d="M740 212 H775" class="arrow"/>
+    <rect x="785" y="165" width="200" height="95" class="purple"/>
+    <text x="885" y="192" text-anchor="middle" class="boxTitle">Candidate Twin</text>
+    <text x="885" y="216" text-anchor="middle" class="small"><tspan x="885">Simulation-addressable</tspan><tspan x="885" dy="18">proposed organizational change</tspan></text>
+
+    <path d="M990 212 H1025" class="arrow"/>
+    <rect x="1035" y="165" width="190" height="95" class="teal"/>
+    <text x="1130" y="192" text-anchor="middle" class="boxTitle">Forecast + Pilot</text>
+    <text x="1130" y="216" text-anchor="middle" class="small"><tspan x="1130">Bounded forecast, reversible</tspan><tspan x="1130" dy="18">pilot and independent telemetry</tspan></text>
+
+    <path d="M1230 212 H1265" class="arrow"/>
+    <rect x="1275" y="165" width="245" height="95" class="orange"/>
+    <text x="1397" y="192" text-anchor="middle" class="boxTitle">Reconcile → Gate 8 Commit</text>
+    <text x="1397" y="216" text-anchor="middle" class="small"><tspan x="1397">Validate outcomes, commit only</tspan><tspan x="1397" dy="18">approved state and recalibrate</tspan></text>
+  </g>
+
+  <!-- Gate 0 -->
+  <rect x="25" y="310" width="1550" height="230" class="panel" filter="url(#shadow)"/>
+  <text x="50" y="343" class="section">2. GATE 0 — ORGANIZATIONAL ORIENTATION COMPILER</text>
+
+  <g>
+    <rect x="55" y="365" width="280" height="140" class="blue"/>
+    <text x="195" y="394" text-anchor="middle" class="boxTitle">A. Loci and identity</text>
+    <text x="78" y="420" class="small"><tspan x="78">• Active actor, role and capability</tspan><tspan x="78" dy="21">• Current gate and workflow position</tspan><tspan x="78" dy="21">• Authority, commit and escalation bounds</tspan><tspan x="78" dy="21">• Loci-preservation check</tspan></text>
+
+    <rect x="355" y="365" width="285" height="140" class="green"/>
+    <text x="497" y="394" text-anchor="middle" class="boxTitle">B. Working environment</text>
+    <text x="378" y="420" class="small"><tspan x="378">• Five-Track implementation path</tspan><tspan x="378" dy="21">• Industry, jurisdiction and compliance</tspan><tspan x="378" dy="21">• Organization, business model, function</tspan><tspan x="378" dy="21">• Workflow, data and protected constraints</tspan></text>
+
+    <rect x="660" y="365" width="275" height="140" class="gold"/>
+    <text x="797" y="394" text-anchor="middle" class="boxTitle">C. Reasoning geometry</text>
+    <text x="683" y="420" class="small"><tspan x="683">• Tunnel: governed execution</tspan><tspan x="683" dy="21">• Exploratory: discovery and hypotheses</tspan><tspan x="683" dy="21">• Hybrid: explore, return, validate</tspan><tspan x="683" dy="21">• Ambiguity defaults to pause</tspan></text>
+
+    <rect x="955" y="365" width="285" height="140" class="purple"/>
+    <text x="1097" y="394" text-anchor="middle" class="boxTitle">D. Authority and integrity</text>
+    <text x="978" y="420" class="small"><tspan x="978">• Protected invariants</tspan><tspan x="978" dy="21">• Forbidden actions and escalation</tspan><tspan x="978" dy="21">• Human and compliance review owners</tspan><tspan x="978" dy="21">• Provenance and authorization seals</tspan></text>
+
+    <rect x="1260" y="365" width="260" height="140" class="teal"/>
+    <text x="1390" y="394" text-anchor="middle" class="boxTitle">E. Gate 0 output</text>
+    <text x="1283" y="420" class="small"><tspan x="1283">• Orientation Vector Packet</tspan><tspan x="1283" dy="21">• Risk and expansion mode</tspan><tspan x="1283" dy="21">• Evidence and ownership plan</tspan><tspan x="1283" dy="21">• Proceed, block or exception</tspan></text>
+  </g>
+
+  <!-- Benchmarks -->
+  <rect x="25" y="560" width="1550" height="235" class="panel" filter="url(#shadow)"/>
+  <text x="50" y="593" class="section">3. BENCHMARK ECOSYSTEM — EXTERNAL REALITY ANCHOR</text>
+
+  <g>
+    <rect x="55" y="615" width="385" height="145" class="blue"/>
+    <text x="247" y="644" text-anchor="middle" class="boxTitle">Five-Track Core Benchmarks</text>
+    <text x="82" y="672" class="small"><tspan x="82">GPO-Bench • Production / Manufacturing</tspan><tspan x="82" dy="22">SciDisc-Bench • Scientific Discovery</tspan><tspan x="82" dy="22">Medical-Bench • Medical / Clinical</tspan><tspan x="82" dy="22">Optimization-Bench • Organizational Optimization</tspan><tspan x="82" dy="22">Education-Bench • Human Capability</tspan></text>
+
+    <rect x="460" y="615" width="310" height="145" class="green"/>
+    <text x="615" y="644" text-anchor="middle" class="boxTitle">Cross-Cutting + Relational</text>
+    <text x="487" y="674" class="small"><tspan x="487">TSC • SecOps • RevT</tspan><tspan x="487" dy="24">RegComp • OrgComm • WTT</tspan><tspan x="487" dy="24">IPeer • FedComp • Maturity</tspan><tspan x="487" dy="24">Meta-benchmark: CCIB</tspan></text>
+
+    <rect x="790" y="615" width="350" height="145" class="gold"/>
+    <text x="965" y="644" text-anchor="middle" class="boxTitle">Benchmark VOC + OVS</text>
+    <text x="817" y="672" class="small"><tspan x="817">Stakeholders + timeframe + score context</tspan><tspan x="817" dy="22">+ real outcome experience + identified gap</tspan><tspan x="817" dy="22">→ calibration signal + new cases</tspan><tspan x="817" dy="22">→ Outcome Validation Score (−1.0 to +1.0)</tspan><tspan x="817" dy="22">Outcomes outrank internal scores.</tspan></text>
+
+    <rect x="1160" y="615" width="360" height="145" class="purple"/>
+    <text x="1340" y="644" text-anchor="middle" class="boxTitle">UTSS Scenario Stress Tests</text>
+    <text x="1187" y="674" class="small"><tspan x="1187">Matrix Test • hidden-state deception</tspan><tspan x="1187" dy="24">Batdog Protocol • fragmented-signal reconstruction</tspan><tspan x="1187" dy="24">Apollo 13 CO₂ • constrained emergency reasoning</tspan><tspan x="1187" dy="24">Groundhog Day • repeated-loop correction</tspan></text>
+  </g>
+
+  <!-- Foundations -->
+  <rect x="25" y="815" width="1550" height="140" class="panel" filter="url(#shadow)"/>
+  <text x="50" y="848" class="section">4. FOUNDATION LAYERS AND GOVERNANCE OUTCOME</text>
+
+  <g>
+    <rect x="55" y="870" width="225" height="60" class="blue"/>
+    <text x="167" y="895" text-anchor="middle" class="boxTitle">Human Authority</text>
+    <text x="167" y="916" text-anchor="middle" class="tiny">Review • exception • rollback • commit</text>
+
+    <rect x="300" y="870" width="225" height="60" class="green"/>
+    <text x="412" y="895" text-anchor="middle" class="boxTitle">Security + Compliance</text>
+    <text x="412" y="916" text-anchor="middle" class="tiny">Boundaries • controls • evidence</text>
+
+    <rect x="545" y="870" width="225" height="60" class="gold"/>
+    <text x="657" y="895" text-anchor="middle" class="boxTitle">Data + Knowledge</text>
+    <text x="657" y="916" text-anchor="middle" class="tiny">OKC • WFKB • provenance • memory</text>
+
+    <rect x="790" y="870" width="225" height="60" class="purple"/>
+    <text x="902" y="895" text-anchor="middle" class="boxTitle">Telemetry + Observer</text>
+    <text x="902" y="916" text-anchor="middle" class="tiny">Independent evidence • drift • incidents</text>
+
+    <rect x="1035" y="870" width="225" height="60" class="teal"/>
+    <text x="1147" y="895" text-anchor="middle" class="boxTitle">WEOF Gates 0–8</text>
+    <text x="1147" y="916" text-anchor="middle" class="tiny">Validate transitions • reconcile • commit</text>
+
+    <rect x="1280" y="870" width="240" height="60" fill="#123f75" stroke="#092653" stroke-width="1.5" rx="12"/>
+    <text x="1400" y="895" text-anchor="middle" class="boxTitle white">ACIM-E Outcome</text>
+    <text x="1400" y="916" text-anchor="middle" class="tiny white">Measurable value within bounded risk</text>
+  </g>
+
+  <rect x="0" y="975" width="1600" height="25" fill="#092653"/>
+  <text x="25" y="993" class="tiny white">ACIM-E v1.0 • © 2026 Aetheris Consulting • MIT License</text>
+  <text x="1575" y="993" text-anchor="end" class="tiny white">Canonical owner: Thomas Giza • Published July 10, 2026</text>
+</svg>
