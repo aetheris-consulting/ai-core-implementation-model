@@ -2,6 +2,38 @@
 
 All material architecture changes to the AI Core Implementation Model are recorded here.
 
+## [1.0.1] — 2026-07-10
+
+### Added
+
+- Governed AI Benchmark Architecture v1.1 repository module.
+- Currentness audit reconciling the June 2026 Drive benchmark suite with ACIM-E v1.0.
+- Detailed profiles for GPO-Bench, SciDisc-Bench, Medical-Bench, Optimization-Bench, and Education-Bench.
+- Benchmark VOC and Outcome Validation specification.
+- Machine-readable Benchmark Case schema.
+- Machine-readable Benchmark Registry schema.
+- Root and ACIM-E documentation links to the benchmark module.
+
+### Changed
+
+- Replaced the obsolete benchmark Gate 0–9 sequence with ACIM-E Gates 0–8 plus continuous operations.
+- Clarified AI Core as the cross-cutting implementation spine rather than a competing benchmark track.
+- Broadened Optimization-Bench from industrial operations to organizational and operational optimization.
+- Replaced the universal efficiency-delta rule with multi-objective readiness and protected countermetrics.
+- Reframed human/current-process performance as a contextual comparator requiring evidence and calibration.
+- Integrated cross-cutting, relational, meta, UTSS, Benchmark VOC, OVS, and production-observation layers.
+- Removed unsupported universal baseline and performance claims from the current repository specification.
+
+### Preserved
+
+- Core five-track governed-state evaluation theory.
+- Authority compliance and safety-critical hard-gate doctrine.
+- Candidate-state and epistemic-state evaluation.
+- Six Benchmark VOC gap classes.
+- Provisional OVS formula and anti-Goodhart hard gate.
+- Canonical benchmark acronyms whose long-form expansions remain unfrozen.
+- Original Google Drive documents as architecture lineage.
+
 ## [1.0.0] — 2026-07-10
 
 ### Added
