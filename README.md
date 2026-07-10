@@ -32,10 +32,15 @@ Hailing Call
 
 - **[ACIM-E v1.0 documentation](./docs/acim-e-v1.0/README.md)**
 - **[ACIM-E canonical specification](./docs/acim-e-v1.0/00-canonical-spec.md)**
+- **[Governed AI Benchmark Architecture v1.1](./docs/benchmarks/README.md)**
+- [Five-Track Core Benchmark profiles](./docs/benchmarks/01-five-track-core-benchmarks.md)
+- [Benchmark VOC and Outcome Validation](./docs/benchmarks/02-benchmark-voc-and-outcome-validation.md)
 - [Gate 0 Orientation Vector schema](./docs/acim-e-v1.0/schemas/gate-0-orientation-vector.yaml)
 - [Golden Workflow Knowledge Baseline schema](./docs/acim-e-v1.0/schemas/golden-workflow-baseline.yaml)
 - [Candidate Twin schema](./docs/acim-e-v1.0/schemas/candidate-twin.yaml)
 - [Benchmark VOC Cycle schema](./docs/acim-e-v1.0/schemas/benchmark-voc-cycle.yaml)
+- [Benchmark Case schema](./docs/benchmarks/schemas/benchmark-case.yaml)
+- [Benchmark Registry schema](./docs/benchmarks/schemas/benchmark-registry.yaml)
 - [Change log](./CHANGELOG.md)
 - [Citation metadata](./CITATION.cff)
 
@@ -88,12 +93,16 @@ Detailed Gate 0 materials:
 
 ### Benchmark ecosystem
 
+The [Governed AI Benchmark Architecture v1.1](./docs/benchmarks/README.md) is the current repository benchmark specification. It evaluates complete AI-enabled workflows through multiple layers:
+
 - Five-Track Core Benchmarks: GPO-Bench, SciDisc-Bench, Medical-Bench, Optimization-Bench, and Education-Bench.
 - Cross-Cutting Benchmarks: TSC, SecOps, RevT, RegComp, OrgComm, and WTT.
 - Relational Benchmarks: IPeer, FedComp, and Maturity.
 - Meta-Benchmark: CCIB.
 - Scenario stress tests: Matrix Test, Batdog Protocol, Apollo 13 CO₂ Test, and Groundhog Day Test.
 - Benchmark VOC and Outcome Validation Score for real-world calibration.
+
+The benchmark module is a canonical working architecture, not a claim that complete validated datasets, universal thresholds, or production evidence already exist for every benchmark.
 
 ## License and citation
 
@@ -104,6 +113,7 @@ Use the repository’s [`CITATION.cff`](./CITATION.cff) file when citing ACIM-E 
 ## Status
 
 - **ACIM-E version:** 1.0.0
+- **Benchmark Architecture version:** 1.1
 - **Release date:** July 10, 2026
 - **Owner:** Thomas Giza / Aetheris Consulting
-- **Status:** Canonical working specification
+- **Status:** Canonical working specifications
