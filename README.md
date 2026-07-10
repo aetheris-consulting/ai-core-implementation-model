@@ -76,12 +76,14 @@ Detailed Gate 0 materials:
 - [`docs/gate-0-orientation-gate/04-examples.md`](./docs/gate-0-orientation-gate/04-examples.md)
 - [`docs/gate-0-orientation-gate/templates/gate-0-standing-payload.md`](./docs/gate-0-orientation-gate/templates/gate-0-standing-payload.md)
 
-### Five implementation tracks
+### AI Core spine and five application tracks
 
-1. AI Core Model of Implementation Optimization.
-2. Production and Manufacturing.
-3. Scientific Discovery.
-4. Medical.
+**AI Core Model of Implementation Optimization** is the cross-cutting implementation spine. It supplies orientation, governance, security, compliance, data, workflow design, model and agent selection, telemetry, evaluation, human oversight, and continuous improvement across five application tracks:
+
+1. Production and Manufacturing.
+2. Scientific Discovery.
+3. Medical.
+4. Organizational Optimization.
 5. Education and Human Capability.
 
 ### Benchmark ecosystem
