@@ -1,0 +1,203 @@
+benchmark_case:
+  schema_version: "1.1"
+
+  identity:
+    case_id: ""
+    case_name: ""
+    benchmark_id: ""
+    sub_benchmark_id: ""
+    benchmark_version: ""
+    case_version: ""
+    status: "draft | review | active | deprecated | retired"
+    owner: ""
+    reviewers: []
+    created_at: ""
+    updated_at: ""
+
+  orientation:
+    implementation_track: "production_manufacturing | scientific_discovery | medical | organizational_optimization | education_human_capability | multi_track"
+    secondary_tracks: []
+    industry_sector: ""
+    industry_group: ""
+    domain: ""
+    jurisdiction: []
+    organization_type: ""
+    business_model_cluster: []
+    business_function: ""
+    workflow_scope: ""
+    risk_class: "low | moderate | high | critical"
+    reasoning_mode: "tunnel | exploratory | hybrid"
+    gate_0_reference: ""
+
+  populations:
+    operators: []
+    served_entities: []
+    adjacent_stakeholders: []
+    protected_subgroups: []
+
+  case_definition:
+    purpose: ""
+    non_goals: []
+    triggering_event: ""
+    starting_state: {}
+    intended_state_transition: ""
+    expected_behavior: []
+    prohibited_behavior: []
+    normal_path: []
+    exception_paths: []
+    distribution_shift_conditions: []
+    rare_adverse_conditions: []
+
+  evidence:
+    corpus_description: ""
+    data_sources: []
+    provenance_receipts: []
+    evidence_types: []
+    freshness_requirement: ""
+    quality_requirements: []
+    known_gaps: []
+    leakage_risk: ""
+    rights_and_license_status: ""
+
+  tools_and_environment:
+    allowed_models: []
+    allowed_tools: []
+    allowed_connectors: []
+    allowed_actions: []
+    blocked_actions: []
+    environment: "simulation | sandbox | shadow | pilot | production"
+    network_and_egress_controls: []
+
+  authority:
+    recommendation_authority: []
+    execution_authority: []
+    approval_authority: []
+    commit_authority: []
+    rollback_authority: []
+    human_review_required: true
+    human_review_owner: ""
+    escalation_paths: []
+    authority_hard_gates: []
+
+  constraints:
+    hard_constraints: []
+    soft_constraints: []
+    safety_constraints: []
+    legal_and_regulatory_constraints: []
+    policy_constraints: []
+    privacy_constraints: []
+    ethical_constraints: []
+    reversibility_requirements: []
+
+  baseline:
+    comparator_type: "validated_ground_truth | physical_or_mathematical_reference | expert_consensus | qualified_human | current_process | historical_dataset | simulation_proxy | provisional"
+    comparator_description: ""
+    role_and_competence_standard: ""
+    task_equivalence: ""
+    operating_conditions: ""
+    population_coverage: []
+    sample_size: null
+    collection_period: ""
+    source_references: []
+    confidence_statement: ""
+    known_biases_and_limits: []
+    refresh_condition: ""
+
+  scoring:
+    hard_gates:
+      - gate_id: ""
+        description: ""
+        threshold: ""
+        verdict: "not_run | pass | fail | blocked"
+        evidence_refs: []
+
+    domain_dimensions:
+      - dimension_id: ""
+        description: ""
+        metric: ""
+        direction: "higher_is_better | lower_is_better | target_range"
+        threshold: null
+        weight: null
+        score: null
+        confidence: ""
+
+    operational_dimensions: []
+    authority_dimensions: []
+    protected_countermetrics:
+      - metric_id: ""
+        description: ""
+        tolerance: ""
+        observed_value: null
+        verdict: "not_run | within_tolerance | warning | exceeded"
+
+    composite_score:
+      allowed: true
+      value: null
+      method: ""
+      note: "Composite scores cannot override failed hard gates."
+
+    case_verdict: "not_run | pass | conditional_pass | fail | pause | rollback | retire"
+    verdict_reason: ""
+    confidence_statement: ""
+
+  acim_e_gates:
+    gate_0_orientation: "not_run | pass | conditional_pass | pause | fail"
+    gate_1_target_workflow: "not_run | pass | conditional_pass | pause | fail"
+    gate_2_baseline_evidence: "not_run | pass | conditional_pass | pause | fail"
+    gate_3_candidate_design: "not_run | pass | conditional_pass | pause | fail"
+    gate_4_forecast_simulation: "not_run | pass | conditional_pass | pause | fail"
+    gate_5_pilot_authorization: "not_run | pass | conditional_pass | pause | fail"
+    gate_6_operational_evaluation: "not_run | pass | conditional_pass | pause | fail"
+    gate_7_reconciliation: "not_run | pass | conditional_pass | pause | fail"
+    gate_8_commit: "not_run | approved | limited | continue | redesign | rollback | retired"
+
+  observation:
+    telemetry_requirements: []
+    independent_observer: ""
+    model_self_report_fields: []
+    actual_tool_use_fields: []
+    workflow_state_fields: []
+    human_review_fields: []
+    incident_fields: []
+    forecast_variance_fields: []
+
+  voc_and_outcomes:
+    voc_required: false
+    voc_profile_reference: ""
+    collection_timeframe: ""
+    stakeholder_populations: []
+    outcome_experience: {}
+    identified_gaps: []
+    gap_classes: []
+    outcome_validation_score:
+      value: null
+      confidence_interval: null
+      cycle_count: 0
+      status: "not_applicable | insufficient_data | provisional | reportable"
+      limitations: []
+    authority_recommendation: "continue | recalibrate | narrow | suspend | rollback | investigate | not_applicable"
+
+  anti_gaming:
+    partition: "development | validation | holdout | production_discovery"
+    exposure_history: []
+    memorization_controls: []
+    prompt_tuning_controls: []
+    judge_independence_controls: []
+    leakage_checks: []
+    case_rotation_or_retirement: ""
+
+  judge_governance:
+    judge_types: []
+    judge_versions: []
+    rubric_reference: ""
+    calibration_set_reference: ""
+    disagreement_rate: null
+    adjudication_method: ""
+    known_biases: []
+
+  change_control:
+    source_lineage: []
+    changes: []
+    approval_record: {}
+    retirement_criteria: []
+    replacement_case_ids: []
